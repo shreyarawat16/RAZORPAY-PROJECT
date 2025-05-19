@@ -30,6 +30,12 @@ import Decathlon from "./decathlon.png"
 import Zomato from "./zomato.svg"
 import Flipkart from "./flipkart.jpg"
 import Feature2 from "./feature2.avif"
+import RazorpayXIcon from "./razorpayXicon.svg";
+import Dots from "./dots.png"
+import InstantSettlementBg from "./instant-settlement-bg.svg";
+import InstantActivation from './instant-activation-icon.svg';
+
+
 export const Assets= {
    logo,
    Flag,
@@ -63,4 +69,8 @@ export const Assets= {
    Zomato,
    Flipkart,
    Feature2,
+   RazorpayXIcon,
+   Dots,
+   InstantSettlementBg,
+   InstantActivation,
 }

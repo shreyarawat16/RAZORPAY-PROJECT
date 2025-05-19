@@ -7,7 +7,7 @@ export default function FeaturePage1(){
         {/* Feature section */}
         
         <section className=" relative z-0">
-          <div className="flex flex-col items-center mt-10 w-full">
+          <div className="flex flex-col items-center mt-10 mx-auto w-full">
           {/* First page */} 
           <div className="relative mt-4 p-4 translate-x-1 w-[80%] h-screen shadow-2xl rounded-md translate-y-4 z-10 min-w-[300px]">
             <h2 className="text-3xl font-semibold px-10 mx-10">Accept Payments</h2>
@@ -99,7 +99,7 @@ export default function FeaturePage1(){
           
  
       {/* Second page */}
-      <div className="mt-4 p-4 translate-x-1 translate-y-4 w-[80%] h-screen shadow-2xl rounded-lg duration-500 ease-in-out z-100 ">
+      <div className="mx-auto mt-4 p-4 translate-x-1 translate-y-4 w-[80%] h-screen shadow-2xl rounded-lg duration-500 ease-in-out z-100 ">
         <h2 className="text-3xl font-semibold px-10 mx-10">Make Payouts</h2>
         <div>
         <ul className="flex justify-center space-x-5 mt-4 p-4">
@@ -172,7 +172,7 @@ export default function FeaturePage1(){
         </div>
       </div>
 {/* Third page */}
-      <div className="mt-4 p-4 translate-x-1 translate-y-4 w-[80%] h-screen shadow-2xl rounded-lg duration-300 ease-in-out z-100 ">
+      <div className="mx-auto mt-4 p-4 translate-x-1 translate-y-4 w-[80%] h-screen shadow-2xl rounded-lg duration-300 ease-in-out z-100 ">
         <h2 className="text-3xl font-semibold px-10 mx-10">Start Business Banking</h2>
         <div>
         <ul className="flex justify-center space-x-5 mt-4 p-4">
@@ -241,7 +241,7 @@ export default function FeaturePage1(){
       </div>
       </div>
         {/* Fourth page */}
-        <div className="mt-4 p-4 translate-x-1 translate-y-4 w-[80%] h-screen shadow-2xl rounded-lg duration-300 ease-in-out z-100 ">
+        <div className="mx-auto mt-4 p-4 translate-x-1 translate-y-4 w-[80%] h-screen shadow-2xl rounded-lg duration-300 ease-in-out z-100 ">
         <h2 className="text-3xl font-semibold px-10 mx-10">Automate payroll</h2>
         <div>
         <ul className="flex justify-center space-x-5 mt-4 p-4">

@@ -7,7 +7,7 @@ export default function  Hero () {
         <>
          {/* HERO SECTION */}
           <section className="relative bg-linear-to-r from-white to-blue-100">
-            <div className="flex justify-between items-center w-100% p-10 ">
+            <div className=" mx-auto flex  flex-col lg:flex-row justify-between items-center w-11/12 max-w-[1080px] p-10 ">
                {/* left part */}
                <div>
                 {/* Heading, para */}
@@ -64,7 +64,7 @@ export default function  Hero () {
                 <a href="#" className="font-semibold cursor-pointer">Get credit and Loans</a>
               </div>
             </div>
-            </section>
+          </section>
          </>
   );  
 }

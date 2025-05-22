@@ -34,8 +34,13 @@ import RazorpayXIcon from "./razorpayXicon.svg";
 import Dots from "./dots.png"
 import InstantSettlementBg from "./instant-settlement-bg.svg";
 import InstantActivation from './instant-activation-icon.svg';
-
-
+import Companies from './companies.png'
+import CtaImg from "./ctaimg.svg";
+import Facebook from './facebook-icon.svg';
+import Insta from './instagram-icon.svg'
+import Linkedin from './linkedin-icon.svg'
+import Github from './github-icon.svg'
+import Twitter from './twitter-icon.svg'
 export const Assets= {
    logo,
    Flag,
@@ -73,4 +78,11 @@ export const Assets= {
    Dots,
    InstantSettlementBg,
    InstantActivation,
+   Companies,
+   CtaImg,
+   Facebook,
+   Insta,
+   Linkedin,
+   Github,
+   Twitter,
 }

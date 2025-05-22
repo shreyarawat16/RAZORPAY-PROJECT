@@ -10,60 +10,60 @@ const FeaturePage4 = () => {
             <h2 className=" text-center text-4xl text-white font-semibold">
                 Features
             </h2>
-            <div className=" text-white block w-6 h-1 mx-auto mt-4 mb-6">
+            <div className="bg-white w-6 h-1 mx-auto mt-4 mb-6">
                     
             </div>
-            <p className="opacity-80 text-sm w-100 text-white text-center mx-auto max-w-[450px]">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
+            <p className="opacity-80 text-md w-100 text-white text-center mx-auto max-w-[450px]">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
          {/* GRID */}
         <div className="mt-10 grid grid-cols-4 gap-y-10 ">
            
             {/* card 1 */}
             <div>
                 <img src={Assets.InstantActivation}></img>
-                <h2 className="font-semibold text-lg mt-4 text-white">Instant Activation</h2>
-                <p className="text-sm mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
+                <h2 className="font-bold text-xl mt-4 text-white">Instant Activation</h2>
+                <p className="text-md mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
             </div>
             {/* card 2 */}
            <div>
                 <img src={Assets.InstantActivation}></img>
-                <h2 className="font-semibold text-lg mt-4 text-white">Easy Integration</h2>
-                <p className="text-sm mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
+                <h2 className="font-bold text-xl mt-4 text-white">Easy Integration</h2>
+                <p className="text-md mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
             </div>
             {/* card 3 */}
             <div>
                 <img src={Assets.InstantActivation}></img>
-                <h2 className="font-semibold text-lg mt-4 text-white">API Driven</h2>
-                <p className="text-sm mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
+                <h2 className="font-bold text-xl mt-4 text-white">API Driven</h2>
+                <p className="text-md mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
             </div>
             {/* card 4 */}
            <div>
                 <img src={Assets.InstantActivation}></img>
-                <h2 className="font-semibold text-lg mt-4 text-white">100+ payment modes</h2>
-                <p className="text-sm mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
+                <h2 className="font-bold text-xl mt-4 text-white">100+ payment modes</h2>
+                <p className="text-md mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
             </div>
             {/* card 5 */}
             <div>
                 <img src={Assets.InstantActivation}></img>
-                <h2 className="font-semibold text-lg mt-4 text-white">Simple Pricing</h2>
-                <p className="text-sm mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
+                <h2 className="font-bold text-xl mt-4 text-white">Simple Pricing</h2>
+                <p className="text-md mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
             </div>
             {/* card 6 */}
            <div>
                 <img src={Assets.InstantActivation}></img>
-                <h2 className="font-semibold text-lg mt-4 text-white">Best in Industry support</h2>
-                <p className="text-sm mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
+                <h2 className="font-bold text-xl mt-4 text-white">Best in Industry support</h2>
+                <p className="text-md mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
             </div>
             {/* card 7 */}
             <div>
                 <img src={Assets.InstantActivation}></img>
-                <h2 className="font-semibold text-lg mt-4 text-white">Dashboard Reporting</h2>
-                <p className="text-sm mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
+                <h2 className="font-bold text-xl mt-4 text-white">Dashboard Reporting</h2>
+                <p className="text-md mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
             </div>
             {/* card 8 */}
             <div>
                 <img src={Assets.InstantActivation}></img>
-                <h2 className="font-semibold text-lg mt-4 text-white">Secure</h2>
-                <p className="text-sm mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
+                <h2 className="font-bold text-xl mt-4 text-white">Secure</h2>
+                <p className="text-md mt-4 text-white max-w-50 opacity-80">Get activated and transact within 2 minutes. Completely online on boarding with minimum documentation</p>
             </div>
         </div>
         </div>

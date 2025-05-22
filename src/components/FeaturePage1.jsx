@@ -96,8 +96,6 @@ export default function FeaturePage1(){
           </div>
           </div>
 
-          
- 
       {/* Second page */}
       <div className="mx-auto mt-4 p-4 translate-x-1 translate-y-4 w-[80%] h-screen shadow-2xl rounded-lg duration-500 ease-in-out z-100 ">
         <h2 className="text-3xl font-semibold px-10 mx-10">Make Payouts</h2>

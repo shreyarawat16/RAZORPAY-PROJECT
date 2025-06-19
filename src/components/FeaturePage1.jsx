@@ -6,7 +6,7 @@ export default function FeaturePage1(){
     <>
         {/* Feature section */}
         
-        <section className=" relative z-0">
+        <section className=" relative z-0 mt-40">
           <div className="flex flex-col items-center mt-10 mx-auto w-full">
           {/* First page */} 
           <div className="relative mt-4 p-4 translate-x-1 w-[80%] h-screen shadow-2xl rounded-md translate-y-4 z-10 min-w-[300px]">

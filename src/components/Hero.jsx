@@ -19,14 +19,15 @@ export default function  Hero () {
         
                 {/* Buttons */}
         
-                <div className="flex mt-5">
-                    <div>
-                    <button className="h-12 bg-blue-600 px-5 my-2 mx-2 rounded text-white hover:bg-blue-700 transition-all duration-300 cursor-pointer font-bold ">Sign Up Now</button>
-                    </div>
+                <div className="flex flex-col-reverse md:flex-row items-center space-x-4 mt-5">
                     
-                   <div className="p-3 my-2 mx-2 cursor-pointer text-blue-600 font-semibold group text-lg">
+                    <button className="w-full md:w-fit h-12 bg-blue-600 px-5 my-2 mx-2 rounded text-white hover:bg-blue-700 transition-all duration-300 cursor-pointer font-bold ">
+                      Sign Up Now</button>
+                   
+                    
+                   <div className="flex self-start md:items-center my-4 mx-2 cursor-pointer text-blue-600 font-semibold group text-lg">
                    <a href="#" >Know More</a>
-                   <div className="relative bottom-0 hidden group-hover:block bg-blue-400  transition-all duration-300 w-full h-0.5"></div>
+                   <div className="absolute bottom-0 hidden group-hover:block bg-blue-400  transition-all duration-300 w-full h-[2px]"></div>
                    </div>
                     
                 </div>
@@ -41,29 +42,40 @@ export default function  Hero () {
                  
             </div>
             {/* Last part */}
-            <div className="flex justify-center mt-2">
-            <div className="mx-auto flex justify-between gap-2 px-2 bg-white shadow rounded-lg overflow-x-auto whitespace-nowrap items-center">
-              <p className="my-4 mx-2 text-md cursor-pointer ">Looking for a product?</p>
-              <button className="bg-blue-100 text-blue-600 p-2 m-2 rounded-full text-sm hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer flex items-center mt-4 h-[40%] ">Accept Payments</button>
-              <button className="bg-blue-100 text-blue-600 p-2 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer flex items-center mt-4 h-[40%]">Make Payouts</button>
-              <button className="bg-blue-100 text-blue-600 p-2 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer flex items-center mt-4 h-[40%]">Start business banking</button>
-              <button className="bg-blue-100 text-blue-600 p-2 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300  cursor-pointer flex items-center mt-4 h-[40%]">Get credit</button>
-              <button className="bg-blue-100 text-blue-600 p-2 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300  cursor-pointer flex items-center mt-4 h-[40%]">Automate payroll</button>
-              <button className="bg-blue-100 text-blue-600 p-2 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer flex items-center mt-4 h-[40%]">Something else?</button>
+            <section className="flex justify-center mt-2 mx-auto">
+            <div className=" flex justify-between gap-2 px-2 bg-white shadow rounded-lg items-center">
+              <p className="hidden lg:block my-4 mx-2 text-md cursor-pointer ">Looking for a product?</p>
+              <button className="hidden lg:block bg-blue-100 text-blue-600 py-[1px] px-3 m-2 rounded-full text-sm hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer h-[40%] ">Accept Payments</button>
+              <button className= "hidden lg:block bg-blue-100 text-blue-600 py-[1px] px-3 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer h-[40%]">Make Payouts</button>
+              <button className="hidden lg:block bg-blue-100 text-blue-600 py-[1px] px-3 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer  h-[40%]">Start business banking</button>
+              <button className="hidden lg:block bg-blue-100 text-blue-600 py-[1px] px-3 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300  cursor-pointer  h-[40%]">Get credit</button>
+              <button className="hidden lg:block bg-blue-100 text-blue-600 py-[1px] px-3 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300  cursor-pointer  h-[40%]">Automate payroll</button>
+              <button className="hidden lg:block bg-blue-100 text-blue-600 py-[1px] px-3 m-2 rounded-full text-sm  hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer  h-[40%]">Something else?</button>
             </div>
-            </div>
-            <div className="px-20 py-20 mt-4 h-[400px]">
-              <h2 className="text-5xl font-semibold leading-[1.5] flex">The all in one &nbsp;<h2 className="text-green-600"> financial platform </h2></h2>
-              <h2 className="text-5xl font-semibold">you've been looking for</h2>
-              <div className="absolute flex justify-center gap-4 my-8 ">
-              <p className="text-md opacity-80 cursor-pointer">With Razorpay you can: </p>
+            </section>
+           
+           {/* 
+            Last part */}
+            <section className="relative">
+            <div className="w-11/12 mt-4 h-[150px] p-4 mx-auto max-w-[1080px] ">
+              <h2 className="text-5xl font-semibold leading-[1.5] hidden md:block">The all in one &nbsp;
+                <span className="text-green-600">Financial Platform</span><br></br>
+                you've been looking for
+              </h2>
+              <h2 className="text-3xl font-bold leading-[1.5] visible md:hidden flex justify-center ">Explore Razorpay Payments suite
+               
+              </h2>
+             </div>
+              <div className="mx-auto absolute flex justify-center items-center gap-x-4 my-10 p-4 ">
+                <p className="text-md opacity-80 cursor-pointer">With Razorpay you can: </p>
                 <a href="#" className="font-semibold cursor-pointer">Accept Payments</a>
                 <a href="#" className="font-semibold cursor-pointer">Make payouts</a>
                 <a href="#" className="font-semibold cursor-pointer">Start business banking</a>
                 <a href="#" className="font-semibold cursor-pointer">Automate payroll</a>
                 <a href="#" className="font-semibold cursor-pointer">Get credit and Loans</a>
               </div>
-            </div>
+              
+            </section>
           </section>
          </>
   );  
